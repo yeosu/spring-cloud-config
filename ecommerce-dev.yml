@@ -3,8 +3,8 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
     username: sa
-    password: sa
-    
+    password: '{cipher}7c41aaccdea8e3d7bbe4acb6e6f5d3bfa168faec0d999579e0d1b5cc7ddd07a3'
+
 token:
   expiration_time: 864000000  # 1 day
   secret: user_token_ecommerce_json_web_token_dev_changed
