@@ -1,0 +1,6 @@
+token:
+  expiration_time: 864000000  # 1 day
+  secret: user_token_ecommerce_json_web_token_dev
+
+gateway:
+  ip: 192.168.0.33
