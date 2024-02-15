@@ -7,7 +7,7 @@ spring:
 
 token:
   expiration_time: 864000000  # 1 day
-  secret: user_token_ecommerce_json_web_token_dev_changed
+  secret: '{cipher}f009a0617696bd903d2fe20e368adf8098faf313fad5106ce9d45982ff3e28a58cc53ff31156665d1ba605a20235a8ccbc160cfcb0325fb6a07a2eb2b52e1e21'
 
 gateway:
   ip: 192.168.0.33
